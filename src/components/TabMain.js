@@ -59,7 +59,7 @@ const TabMain = ({data}) => {
                     <Reports data={dashboard}/>
                 </div>
             </Tab>
-            <Tab eventKey="ewallet_cash_out" title="ewallet_cash_out">
+            <Tab eventKey="ewallet_cash_out" title="Ewallet cash out">
                 <div className="container pt-3">
                     <Table columns={columns_ewallet_cash_out} data={ewallet_cash_out.data}/>
                     <div>
@@ -71,7 +71,7 @@ const TabMain = ({data}) => {
                     </div>
                 </div>
             </Tab>
-            <Tab eventKey="fnb_cash_out" title="fnb_cash_out">
+            <Tab eventKey="fnb_cash_out" title="Fnb cash out">
                 <div className="container pt-3">
                     <Table columns={columns_fnb_cash_out} data={fnb_cash_out.data}/>
                     <div>
@@ -83,7 +83,7 @@ const TabMain = ({data}) => {
                     </div>
                 </div>
             </Tab>
-            <Tab eventKey="masterpass_cash_in" title="masterpass_cash_in">
+            <Tab eventKey="masterpass_cash_in" title="Masterpass cash in">
                 <div className="container pt-3">
                     <Table columns={columns_masterpass_cash_in} data={masterpass_cash_in.data}/>
                     <div>
