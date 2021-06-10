@@ -1,7 +1,9 @@
 import {Tab, Tabs} from "react-bootstrap";
 import Table from "./Table";
+import Reports from "./Reports";
 
 const TabMain = ({data}) => {
+    const dashboard =  data.dashboard;
     const ewallet_cash_out = data.report_data.ewallet_cash_out;
     const fnb_cash_out = data.report_data.fnb_cash_out;
     const masterpass_cash_in = data.report_data.masterpass_cash_in;
@@ -54,6 +56,7 @@ const TabMain = ({data}) => {
         <Tabs defaultActiveKey="Dashboard"  >
             <Tab eventKey="Dashboard" title="Dashboard">
                 <div className="container pt-3">
+                    <Reports data={dashboard}/>
                 </div>
             </Tab>
             <Tab eventKey="ewallet_cash_out" title="ewallet_cash_out">
