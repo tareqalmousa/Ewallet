@@ -6,7 +6,7 @@ const chartRender = (data) => {
     let labels = [];
     Object.entries(data).map(regregord => (
         series.push(regregord[1].value),
-            labels.push(regregord[1].label)
+        labels.push(regregord[1].label)
     ));
     let chartRetrun = {
         series: series,
