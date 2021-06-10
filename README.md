@@ -47,3 +47,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ### `npm run build` 
 ### `npm run build:staging/production` 
 
+###screenshot
+![Screenshot](Dashboard.png)
+
+![Screenshot](Table.png)
